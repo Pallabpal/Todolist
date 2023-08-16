@@ -1,0 +1,99 @@
+
+body{
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCGX_MHr1fvk8w3PBJG1WMJafoIajmzcbukULXJ8J4tWUNhbEq0tLLPh0OAJEJYfedr8Y&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  font-family:  sans-serif;
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+
+.App > span {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 70%;
+  outline: none;
+  padding: 10px 10px;
+  border: 2px solid #ffc8d9;
+  color:#5c1e37;  
+  font-size: 1.1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #fff1f5;
+}
+
+.form button {
+  border: none;
+  width: 20%;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: rgb(238, 238, 238); */
+  padding: 30px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-inline: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+ 
+  position: relative;
+  background-color: rgb(215, 254, 255);
+
+}
+
+.todo p {
+ flex-basis: 80%;
+ font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.todo button {
+  border: none;
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: rgb(247, 45, 45);
+  color: #fff;
+  /* font-size: 1.1rem; */
+  position: absolute;
+  font-weight: bold;
+  cursor: pointer;
+  right:2px;
+  top:2px;
+
+}
+.Date{
+  position: absolute;
+  right: 2px;
+  font-size: 12px;
+  bottom: -10px;
+  font-family: cursive !important;
+}
