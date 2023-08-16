@@ -3,6 +3,8 @@ body{
   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCGX_MHr1fvk8w3PBJG1WMJafoIajmzcbukULXJ8J4tWUNhbEq0tLLPh0OAJEJYfedr8Y&usqp=CAU');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
 }
 .App {
   font-family:  sans-serif;
